@@ -7,7 +7,7 @@ type graphProps = {
 
 }
 export const Graph = ({a, b, c, d}: graphProps) => {
-        const canvas = document.getElementById("graph") as HTMLCanvasElement;
+        /* const canvas = document.getElementById("graph") as HTMLCanvasElement;
         const width: number = 400;
         const height: number = 400;
         const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
@@ -35,7 +35,7 @@ export const Graph = ({a, b, c, d}: graphProps) => {
             } else {
                 ctx.lineTo(i, y);
             }
-        }
+        } */
     return (
     <div>
         <canvas id="graph" width="400" height="400"></canvas>
